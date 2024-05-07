@@ -476,6 +476,42 @@ https://www.tooplate.com/view/2117-infinite-loop
     </div>
 </section>
 
+<button onclick="showBasketballCourt()">Explore Basketball Court</button>
+
+<!-- The section -->
+<section id="basketball-court">
+    <div id="basketball-court-content" class="container">
+        <span id="close-btn" onclick="hideBasketballCourt()">X</span>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="tm-text-primary tm-section-title mb-4">Basketball Court</h2>
+                <p class="mx-auto tm-section-desc">
+                    Explore the basketball court where all the action happens.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/Court1.jpg" alt="Basketball Court Photo 1" class="img-fluid mb-4">
+                <img src="img/Court2.jpg" alt="Basketball Court Photo 2" class="img-fluid">
+                <img src="img/Court3.jpg" alt="Basketball Court Photo 3" class="img-fluid">
+                <img src="img/Court4.jpg" alt="Basketball Court Photo 4" class="img-fluid">
+                <img src="img/Court5.jpg" alt="Basketball Court Photo 5" class="img-fluid mb-4">
+                <img src="img/Court6.jpg" alt="Basketball Court Photo 6" class="img-fluid mb-4">
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function showBasketballCourt() {
+        document.getElementById("basketball-court").style.display = "block";
+    }
+
+    function hideBasketballCourt() {
+        document.getElementById("basketball-court").style.display = "none";
+    }
+</script>
     
     <!-- Contact -->
     <section id="contact" class="tm-section-pad-top tm-parallax-2">
