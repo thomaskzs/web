@@ -527,6 +527,13 @@ figure.effect-honey:hover h2 i {
 .contact-item {
   margin-left: 20px;
   margin-bottom: 50px;
+  display: inline-block;
+}
+
+.phone-number,
+.contact-name {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .item-link {
