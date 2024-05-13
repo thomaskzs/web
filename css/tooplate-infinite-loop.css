@@ -545,7 +545,7 @@ figure.effect-honey:hover h2 i {
 
 .item-link i,
 .item-link span {
-  color: #3496d8;
+  color: white;    /*  #3496d8;   */
   transition: all 0.3s ease;
 }
 
