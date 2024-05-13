@@ -315,7 +315,7 @@ blockquote {
 }
 
 .tm-testimonial-item figcaption {
-  text-align: right;
+  /* text-align: right; */
   font-style: italic;
   font-size: 1.1rem;
 }
